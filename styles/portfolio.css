@@ -30,7 +30,7 @@ p {
 
 .hero {
     text-align: center;
-    padding: 50px 5px;
+    padding: 30px 5px;
     margin: 0 auto;
 }
 
@@ -65,8 +65,8 @@ p {
 }
 
 .i-name {
-    font-size: 90px;
-    color: var(--secondary-color);
+    font-size: 80px;
+    color: #C961DE;
     text-align: center;
 }
 
@@ -104,7 +104,7 @@ p {
     font-size: 50px;
     font-weight: bold;
     height: 50px;
-    color: #C961DE;
+    color: #2954a3;
     display: flex;
     justify-content: center;
 }
@@ -113,8 +113,8 @@ p {
 /*My cartoon avatar on intro page*/
 
 .intro-image {
-    width: 500px;
-    height: 500px;
+    width: 460px;
+    height: 460px;
     display: block;
     margin: 0 auto;
     position: absolute;
@@ -153,6 +153,7 @@ p {
 #below {
     color: var(--secondary-color);
     font-size: 20px;
+    margin-top: 2px;
 }
 
 .content-container {
