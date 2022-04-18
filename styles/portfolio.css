@@ -1,3 +1,5 @@
+/*all pages*/
+
 :root {
     --branding-color: linear-gradient(107.21deg, #c961de 24.43%, #2954a3 68.95%);
     --secondary-color: #f9f7fe;
@@ -24,6 +26,135 @@ h6 {
 
 p {
     color: var(--secondary-color);
+}
+
+.content-container {
+    padding: 60px 20px;
+}
+
+.content h1 {
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.content h2 {
+    font-size: 18px;
+    font-family: var(--default-font-family);
+}
+
+.content h3 {
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: var(--default-font-family);
+}
+
+.content p {
+    font-size: 14px;
+}
+
+.content {
+    margin: 30px;
+}
+
+.btn-branding {
+    background: linear-gradient(107.21deg, #c961de 24.43%, #2954a3 68.95%);
+    border-radius: 20px;
+    color: white;
+    border: 1px solid var(--secondary-color);
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-branding-outline {
+    background: linear-gradient(107.21deg, #c961de 24.43%, #2954a3 68.95%);
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 20px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.project-desciption {
+    padding: 120px 60px;
+}
+
+.logo {
+    max-height: 40px;
+    font-weight: bold;
+}
+
+nnav {
+    padding: 20px 0;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #C961DE;
+    transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+    color: var(--secondary-color);
+}
+
+footer {
+    margin: 60px 0;
+}
+
+footer .contact-box {
+    background: var(--branding-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+
+footer .contact-box p {
+    margin: 0;
+}
+
+footer .email-link {
+    text-decoration: none;
+    color: #c961de;
+    font-size: 24px;
+}
+
+footer .email-link:hover {
+    color: var(--secondary-color);
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--secondary-color);
+    background: var(--branding-color);
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+    color: white;
+    background: #c961de;
 }
 
 
@@ -155,134 +286,16 @@ p {
     font-size: 20px;
 }
 
-.content-container {
-    padding: 60px 20px;
+
+/*about page*/
+
+#aboutpic {
+    margin: 1px 40px;
+    padding: 60px;
 }
 
-.content h1 {
-    font-size: 64px;
-    line-height: 80px;
-}
 
-.content h2 {
-    font-size: 18px;
-    font-family: var(--default-font-family);
-}
-
-.content h3 {
-    font-size: 24px;
-    line-height: 1.5;
-    font-family: var(--default-font-family);
-}
-
-.content p {
-    font-size: 14px;
-}
-
-.content {
-    margin: 30px;
-}
-
-.btn-branding {
-    background: linear-gradient(107.21deg, #c961de 24.43%, #2954a3 68.95%);
-    border-radius: 20px;
-    color: white;
-    border: 1px solid var(--secondary-color);
-    font-size: 18px;
-    line-height: 27px;
-    padding: 15px 30px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.btn-branding-outline {
-    background: linear-gradient(107.21deg, #c961de 24.43%, #2954a3 68.95%);
-    color: var(--secondary-color);
-    border: 1px solid var(--secondary-color);
-    border-radius: 20px;
-    font-size: 18px;
-    line-height: 27px;
-    padding: 15px 30px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.project-desciption {
-    padding: 120px 60px;
-}
-
-.logo {
-    max-height: 40px;
-    font-weight: bold;
-}
-
-nnav {
-    padding: 20px 0;
-}
-
-nav ul {
-    padding: 0;
-    margin: 0;
-}
-
-nav li {
-    display: inline;
-    list-style: none;
-    line-height: 42px;
-    margin-left: 15px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #C961DE;
-    transition: all 100ms ease-in-out;
-}
-
-nav a:hover,
-nav li.active a {
-    color: var(--secondary-color);
-}
-
-footer {
-    margin: 60px 0;
-}
-
-footer .contact-box {
-    background: var(--branding-color);
-    padding: 30px 120px;
-    border-radius: 10px;
-}
-
-footer .contact-box p {
-    margin: 0;
-}
-
-footer .email-link {
-    text-decoration: none;
-    color: #c961de;
-    font-size: 24px;
-}
-
-footer .email-link:hover {
-    color: var(--secondary-color);
-}
-
-footer .social-links a {
-    margin: 0 20px;
-    color: var(--secondary-color);
-    background: var(--branding-color);
-    padding: 10px 14px;
-    border-radius: 50%;
-    font-size: 18px;
-    transition: all 100ms ease-in-out;
-}
-
-footer .social-links a:hover {
-    color: white;
-    background: #c961de;
-}
+/*Responsivity*/
 
 @media (max-width: 1030px) {
     .i-title-item {
