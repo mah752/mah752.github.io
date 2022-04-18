@@ -102,7 +102,7 @@ p {
 }
 
 .i-title-item {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
     height: 50px;
     color: #2954a3;
@@ -286,7 +286,7 @@ footer .social-links a:hover {
 
 @media (max-width: 1030px) {
     .i-title-item {
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 
@@ -310,16 +310,13 @@ footer .social-links a:hover {
         text-align: center;
     }
     .i-title-item {
-        font-size: 25px;
+        font-size: 20px;
     }
 }
 
 @media (max-width: 724px) {
     .i-right {
         display: none;
-    }
-    .i-title-item {
-        font-size: 20px;
     }
 }
 
