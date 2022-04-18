@@ -218,7 +218,7 @@ p {
     font-weight: bold;
 }
 
-nav {
+nnav {
     padding: 20px 0;
 }
 
@@ -230,9 +230,8 @@ nav ul {
 nav li {
     display: inline;
     list-style: none;
-    line-height: 62px;
+    line-height: 42px;
     margin-left: 15px;
-    font-size: 30px;
 }
 
 nav a {
