@@ -17,6 +17,7 @@
 </head>
 
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">back to top</button>
     <div class="container">
         <nav class="d-flex justify-content-between">
             <a href="index.html" title="Homepage">
@@ -33,7 +34,7 @@
                     <a href="./work.html" title="maryan's work"> Work</a>
                 </li>
                 <li>
-                    <a href="./contact.html" title="Contact maryan"> Contact</a>
+                    <a href="#footer" title="Contact maryan"> Contact</a>
                 </li>
             </ul>
         </nav>
@@ -43,53 +44,76 @@
             <div class="col-lg-6">
                 <div class="content">
                     <h1 class="mb-4">Hi, I’m Maryan Hussein</h1>
-                    <h2 class="mb-4">Front-end developer and UX/UI designer based in the UK</h2>
+                    <h2 class="mb-4">Front-End developer and UX/UI designer based in the UK</h2>
                     <p class="mb-5">
-                        I’m currently seeking new opportunities in front-end development and UI/UX design. I’m open to work remotely and have flexible hours. I've been taking Shecodes workshops for the past 6 months and I am skilled in HTML, CSS, Javascript and React.
-                    </p>
-                    <a href="./work.html" class="btn btn-branding">See my projects</a>
-                    <a href="./work.html" class="btn btn-branding">View my work history</a>
+                        <span class="opportunities">I’m currently seeking new opportunities in front-End development and UI/UX design.</span></br>
+                        </br> My journey to coding is a bit of a strange one... </br>
+                        I'm a first generation immigrant who grew up in a low income area. With this comes pressure to succeed by taking the safest route possible- become a doctor, lawyer or work for the government. Front-End development or design weren't even on my list of
+                        possible careers. </br>
+                        Despite all barriers I had worked incredibly hard, obtained a degree in Psychology, a Masters in Political Psychology of International relations and even interned for the United Nations! But, I felt lost. I was still deciding on which career path I should
+                        take, the one I am expected to or the one that will make me happy?
+                        </br>
+                        One spring afternoon, I was incredibly bored and I decided to watch a Netflix series called "Startup". Prior to this, I had no idea hackathons existed, it seemed so exciting. I began to research, watch tutorials and try to find some classes. I was eager
+                        to learn and fell in love with front-End development and I 've been taking Shecodes workshops for the past 6 months where I became skilled in HTML, CSS, Javascript and React. <br>I am confident with my coding
+                        skills, I have joined a handful of hackathons, met some amazing people and worked on some cool projects (some which will help people!).
+                        </br>
+                        Currently, I aim to complete the Google UX course so that I can brush up on my design skills.</p>
                 </div>
             </div>
             <div class="col-lg-6">
                 <img src="img/intropic.png" alt="" class="img-fluid" id="aboutpic" />
+                <div class="workButtons"><a href="./work.html" class="btn btn-branding" id="button1">My projects</a>
+                    <a href="https://www.linkedin.com/in/maryanh752/" class="btn btn-branding" id="button2">My work history</a>
+                </div>
             </div>
         </div>
     </div>
-    <footer class="container">
-        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
-            <div>
-                <h3>Work inquiry</h3>
-                <p class="text-muted">Let's work together</p>
-            </div>
-            <div>
-                <a href="./contact.html" class="btn btn-branding mt-3" title="Contact Maryan">
-            Contact me
-          </a>
-            </div>
-        </div>
-        <div class="d-flex justify-content-center mb-5">
-            <a href="mailto:hmaryan86@gmail.com" class="email-link" title="Email Maryan">
+    <footer class="container" id="footer">
+        <div class="d-flex justify-content-center mb-5 ">
+            <a href="mailto:hmaryan86@gmail.com " class="email-link " title="Email Maryan ">
           Email me
         </a>
         </div>
-        <div class="social-links d-flex justify-content-center">
-            <a href="https://www.github.com/mah752" target="_blank" title="GitHub Profile">
-                <i class="fab fa-github"></i>
+        <div class="social-links d-flex justify-content-center ">
+            <a href="https://www.github.com/mah752 " target="_blank " title="GitHub Profile ">
+                <i class="fab fa-github "></i>
             </a>
-            <a href="https://www.instagram.com/ayaanhxss" target="_blank" title="instragram Profile">
-                <i class="fab fa-instagram"></i>
+            <a href="https://www.instagram.com/ayaanhxss " target="_blank " title="instragram Profile ">
+                <i class="fab fa-instagram "></i>
             </a>
-            <a href="https://www.twitter.com/ayaanhxss" target="_blank" title="Twitter Profile">
-                <i class="fab fa-twitter"></i>
+            <a href="https://www.twitter.com/ayaanhxss " target="_blank " title="Twitter Profile ">
+                <i class="fab fa-twitter "></i>
             </a>
         </div>
-        <p class="text-center mt-5">
+        <p class="text-center mt-5 ">
             ✌️ This website was coded by Maryan Hussein, and is
-            <a href="https://github.com/mah752/mah752.github.io" target="_blank">
+            <a href="https://github.com/mah752/mah752.github.io " target="_blank ">
           open-sourced
         </a>
         </p>
+        <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {
+                scrollFunction()
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
     </footer>
 </body>
 
