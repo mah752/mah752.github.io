@@ -323,6 +323,11 @@
     
     .opportunities {
         color: #c961de;
+        font-weight: bold;
+    }
+    
+    .story {
+        color: #6A59BB;
     }
     /*Responsivity*/
     
