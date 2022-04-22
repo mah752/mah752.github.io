@@ -236,6 +236,11 @@
         text-align: center;
         margin-top: 10px;
     }
+    
+    .Projects {
+        color: #35BEE3;
+        text-align: center;
+    }
     /*animation for what I do using css*/
     
     .i-title-wrapper {
@@ -262,7 +267,7 @@
         font-size: 30px;
         font-weight: bold;
         height: 50px;
-        color: #2954a3;
+        color: #35BEE3;
         display: flex;
         justify-content: center;
     }
