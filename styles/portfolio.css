@@ -348,6 +348,33 @@ footer .social-links a:hover {
 }
 
 
+/* About page links*/
+
+.aboutlink:link {
+    color: #c961de;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.aboutlink:visited {
+    color: #c961de;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.aboutlink:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.aboutlink:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
 /*about stats on about page*/
 
 .skills-section {
@@ -576,10 +603,16 @@ footer .social-links a:hover {
     .i-right {
         display: none;
     }
+    .duplicates {
+        display: none;
+    }
 }
 
 @media (max-width: 500px) {
     .i-title {
         font-size: 10px;
+    }
+    .duplicates {
+        display: none;
     }
 }
