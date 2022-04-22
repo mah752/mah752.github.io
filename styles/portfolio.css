@@ -512,6 +512,14 @@ footer .social-links a:hover {
 }
 
 
+/*certificates section on about page*/
+
+.certifications {
+    color: #c961de;
+    font-weight: bold;
+}
+
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 
 @media screen and (max-width: 800px) {
