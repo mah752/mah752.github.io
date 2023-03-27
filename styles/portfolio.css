@@ -1,15 +1,15 @@
     /*all pages*/
     
      :root {
-        --branding-color: linear-gradient(107.21deg, #c961de 24.43%, #2954a3 68.95%);
-        --secondary-color: #f9f7fe;
+        --branding-color: linear-gradient(107.21deg, #591a66 24.43%, #2954a3 68.95%);
+        --secondary-color: #333136;
         --heading-font-family: "Playfair Display", serif;
         --default-font-family: "Poppins", sans-serif;
     }
     
     body {
         font-family: var(--default-font-family);
-        background: #111011;
+        background: #f7e7f7;
         margin: 0 auto;
     }
     /*back to top button*/
@@ -309,6 +309,26 @@
         font-size: 20px;
     }
     /*about page*/
+    
+    .carousel {
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .carousel img {
+        width: 50%;
+        height: 50%;
+    }
+    
+    .slick-slide {
+        margin: 0px 20px;
+    }
+    
+    .slick-dots,
+    li {
+        display: inline-flex;
+        justify-content: center;
+    }
     
     #aboutpic {
         margin: 1px 40px;
