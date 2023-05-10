@@ -382,6 +382,7 @@
     
     .skills-section {
         padding-top: 20px;
+        justify-content: centre;
     }
     
     .skills-header {
@@ -395,8 +396,7 @@
         content: '';
         position: absolute;
         bottom: 0;
-     
-        width: 100px;
+ 
         height: 4px;
         background-color: #c961de;
         border-radius: 2px;
