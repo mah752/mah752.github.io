@@ -207,211 +207,119 @@ i{
 .navbar .nav-link {
   color: white !important;
 }
-
+/* Hero Section */
+/* Hero Section */
+/* Hero Section */
 .hero {
-  /*background-color: #F1F1F1;*/
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 20px;
-  max-height: 800px;
-  margin-top: 40px;
+  background-color: #F1F1F1;
+  padding: 100px;
+  text-align: center;
 }
 
 .hero h1 {
-  font-size: 68px;
+  font-size: 48px;
   color: #000;
-   font-family: Inter;
-  letter-spacing: 0.68px;
-  text-align: center;
+  font-family: 'Inter', sans-serif;
   font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 20px;
 }
 
 .hero h3 {
+  font-size: 24px;
   color: #752D5A;
-  text-align: center;
-  font-size: 36px;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
-  line-height: auto;
-  padding: 10px;
-  text-decoration: overline;
+  text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 .hero p {
-  color: #000000;
-  text-align: center;
-  font-size: 28px;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: 2;
-
-}*/
+  font-size: 20px;
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+}
 
 .ctas {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  flex-wrap: wrap;
 }
 
 .hero button {
-  border-radius: 10px;
-  display: inline-flex;
-  padding: 16px 68px;
-  align-items: flex-start;
-  background-color: #000;
-  color: #fff;
-  border: none;
-  margin: 0px 16px;
-  text-align: center;
-  font-size: 32px;
-  font-family: Inter;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
   letter-spacing: 0.6px;
-  max-width: 300px;
+  padding: 16px 40px;
+  margin: 12px;
+  max-width: 250px;
+  border: none;
+  border-radius: 10px;
   cursor: pointer;
-}
-
-.hero button:hover {
-  background: linear-gradient(180deg, rgba(64, 0, 86, 0.42) 0%, rgba(255, 199, 0, 0.42) 100%);
+  background-color: #000;
+  color: #fff;
 }
 
 .hero button.hireMe {
   background-color: #ffe601;
   color: #000;
   border: 1px solid #000;
-  font-family: Inter;
-  margin: 0px 16px;
-  padding: 16px 48px;
-  font-size: 32px;
-  max-width: 300px;
-}
-.right-column img {
-  z-index: -1;
 }
 
-.left-column {
-  flex: 1;
-  margin-right: 20px;
-
+.hero button:hover {
+  background: linear-gradient(180deg, rgba(64, 0, 86, 0.42) 0%, rgba(255, 199, 0, 0.42) 100%);
 }
 
-.right-column {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 16px;
-}
-/*.right-column img {
-opacity: 0.3;
-}*/
-.right-column::before {
-  content: "";
-  background-position: center;
-  flex-grow: 1;
-  height: 50%;
-}
-@media screen and (min-width: 1503px) {
-  .right-column img {
-    max-width: 800px;
-    height: auto;
-    margin-right: 20px;
-    padding: 10px 10px 10px 10px;
-  }
-  .hero button, .hero button.hireMe {padding: 16px 48px;
-    font-size: 28px;
-    max-width: 300px;}
-
-}
-@media screen and (max-width: 1503px){
-.hero{
-max-height: 400px;
-}
-  .right-column img {
-    max-width: 600px;
-    height: auto;
-    margin-right: 20px;
-    padding: 10px 10px 10px 10px;}
-
-  .hero h1 {
-    font-size: 40px;
-    line-height: 50px;
-  }
-
-  .hero h3 {
-    font-size: 24px;
-    line-height: 40px;
-  }
-
-  .hero p {
-    font-size: 18px;
-    line-height: 30px;
-  }
-  .hero button, .hero button.hireMe {padding: 16px 48px;
-    font-size: 16px;
-    max-width: 250px;
-    margin: 12px;
-} }
-@media screen and (max-width: 935px){
-  .hero{
-    padding: 100px;
-    margin: 0 auto;
-  }
-  .hero h1 {
-    font-size: 32px;
-    line-height: 50px;
-    margin-top: 16px;
-    padding-top: 24px;
-    
-  }
-
-  .hero h3 {
-    font-size: 18px;
-    line-height: 40px;
-  }
-
-  .hero p {
-    font-size: 16px;
-    line-height: 30px;
-  }
-}
+/* Media Queries */
 @media screen and (max-width: 768px) {
   .hero {
-    flex-direction: column;
-    padding: 140px 20px 20px 20px;
-    height: auto;
-    background-position: center;
+    padding: 80px 20px 40px 20px;
   }
 
   .hero h1 {
     font-size: 40px;
-    line-height: 50px;
   }
 
   .hero h3 {
-    font-size: 24px;
-    line-height: 40px;
+    font-size: 20px;
   }
 
   .hero p {
     font-size: 18px;
-    line-height: 30px;
   }
-
-  .left-column,
-  .right-column {
-    margin-right: 0;
-  }
-
-  .right-column img {
-  display: none;
-  }
-
 }
+
+@media screen and (max-width: 480px) {
+  .hero {
+    padding: 60px 20px 20px 20px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero h3 {
+    font-size: 18px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .hero button {
+    font-size: 18px;
+    padding: 16px 36px;
+  }
+}
+
 
 /* skills section
 .mySkillsSection{
