@@ -59,10 +59,10 @@ animation: gradient 15s ease infinite;
   z-index: 999;
 }
 
-   a{
+   /*a{
   color: black !important;
   text-decoration: none !important;
-}
+}*/
 
 /* h1{
   font-size: 48px;
@@ -133,7 +133,7 @@ font-weight: bold;
 }
 /*heasder*/
 
-header {
+/*eader {
   background-color: black;
  /* padding: 10px;*/
   position: fixed;
@@ -142,8 +142,8 @@ header {
   right: 0;
   width: 100%;
   z-index: 999;
-}
-.navbar {
+}*/
+/*.navbar {
   background-color: transparent !important;
   padding: 10px 100px;
 }
@@ -404,7 +404,7 @@ height: auto;
 /*my work
 .myProjects {
 outline: 2px solid red;
-}*/
+}
 
 .featured-projects {
 
@@ -652,7 +652,7 @@ font-size: 20px;
 flex: 2;
 /*border: 5px solid #400056;
 border-radius: 5px;
-padding: 20px;*/
+padding: 20px;*
 }
 
 #about-right-column {
@@ -694,13 +694,13 @@ max-width: 600px;
 }
 }
 
-
+*/
 /*.about{
 display: flex;
 justify-content: center;
 align-items: center;
 flex-wrap: nowrap;/*
-}}timeline*/
+}}timeline
 #about-right-column {
   background-color: #3C0450;
 }
@@ -885,7 +885,7 @@ padding: 16px;
  display: flex;
  justify-content: center;
  align-items: center;
-  /*  transform: translate(-50%,-50%);*/
+  /*  transform: translate(-50%,-50%);
   }
  
   .main-btn-circle{
@@ -1065,7 +1065,7 @@ padding: 16px;
     font-size: 15px;
   }
 
-  /*footer*/
+  footer
   footer {
       background-color: #000;
       color: #F1F1F1;
@@ -1490,13 +1490,13 @@ font: 400 18px 'Inter', sans-serif;
   color: black;
 }
 
-/* Sidebar link span hover styles */
+/* Sidebar link span hover styles 
 .sidebar-nav a span:hover {
-  background-color: #FFC700; /* Use the same hover color for span elements */
+  background-color: #FFC700;  /* Use the same hover color for span elements 
   color: black;
 }
     .content {
       margin-left: 200px;
       padding: 20px;
-    }
+    }*/
     
