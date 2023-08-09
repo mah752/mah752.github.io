@@ -58,7 +58,7 @@ CSS STRUCTURE:
 :root {
   --accent-color:             #333;
   --black-color:              #000;
-  --dark-color:               #8b3dca; 
+  --dark-color:               #000000; 
   --gray-color-100:           #F9F7F5;
   --gray-color-200:           #E1E1E1;
   --gray-color-300:           #D8D8D8;
@@ -256,6 +256,16 @@ h1, h2, h3, h4, h5 {
 }
 h1.light, h2.light, h3.light, h4.light, h5.light {
     color: var(--light-color);
+}
+.responsive-text {
+  font-size: 16px; /* Default font size */
+margin: auto;
+}
+
+@media (min-width: 992px) {
+  .responsive-text {
+    font-size: 20px; /* Font size for larger screens */
+  }
 }
 
 /* - Section width
@@ -619,8 +629,8 @@ navbar-brand:hover
 ------------------------------------------------------------- */
 #information .info-detail {
   padding: 3em 1em;
-  background-color: var(--light-color) !important;
-  color: var(--primary-color)!important;
+  background-color: var(--primary-color)!important;
+  color: var(--light-color)!important;
  /* border: #000 2px solid;
   border-radius: 15px;8/
 }
@@ -663,7 +673,9 @@ navbar-brand:hover
 
 /* 4.7 Footer
 ------------------------------------------------------------- */
-
+footer{
+  width: 100% !important;
+}
 
 @media (max-width:580px) {
   #footer .row {

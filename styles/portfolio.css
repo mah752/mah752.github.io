@@ -34,7 +34,7 @@
         background-color: #555;
     }
     
-    h1,
+    /*h1,
     h2,
     h3,
     h4,
@@ -183,9 +183,9 @@
     
     footer .social-links a:hover {
         color: white;
-        background: #c961de;
+        background: #ffffff;
     }
-    /*intro page*/
+    /*intro page
     
     .hero {
         text-align: center;
@@ -195,7 +195,7 @@
     
     .i {
         display: flex;
-        /*height: 100vh;*/
+        /*height: 100vh;
     }
     
     .i-left {
@@ -281,7 +281,7 @@
         z-index: -1;
         align-items: center;
         justify-content: center;*/
-    /*intro-page button css*/
+    /*intro-page button css*
     
     #contact-button {
         background: linear-gradient(107.21deg, #c961de 24.43%, #2954a3 68.95%);
@@ -294,10 +294,10 @@
         align-items: center;
         display: flex;
         justify-content: center;
-        /*margin-left: 80px;*/
+        /*margin-left: 80px;*
         width: 300px;
     }
-    /*imgs of projects*/
+    /*imgs of projects
     
     .img-fluid {
         align-items: center;
@@ -308,7 +308,7 @@
         color: var(--secondary-color);
         font-size: 20px;
     }
-    /*about page*/
+    /*about page
     
     .carousel {
         width: 50%;
@@ -353,7 +353,7 @@
     .story {
         color: #f9f7fe;
     }
-    /* About page links*/
+    /* About page links
     
     .aboutlink:link {
         color: #c961de;
@@ -378,7 +378,7 @@
         background-color: transparent;
         text-decoration: underline;
     }
-    /*about stats on about page*/
+    /*about stats on about page
     
     .skills-section {
         padding-top: 20px;
@@ -427,9 +427,8 @@
     
     .skills-box:hover>.skills-title: after,
     .skills-box:hover>.skills-title: before {
-        width: 30px;
-    }
-    
+        width: 30px;}
+
     .skills-box:hover .skills-img {
         transform: translateX(-20px);
     }
@@ -442,7 +441,7 @@
         margin-bottom: 0.5rem;
         position: relative;
     }
-    /*.skills-title:after {
+    .skills-title:after {
         content: '';
         position: absolute;
         bottom: 0;

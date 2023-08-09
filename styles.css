@@ -399,17 +399,18 @@ outline: 2px solid red;
 width: 100%;
 height: auto;
 
-  /*margin: 16px;*/
+  margin: 16px;
 }
-/*my work
+my work
 .myProjects {
 outline: 2px solid red;
 }
 
 .featured-projects {
 
-margin: 0px 100px;
+margin: 0px 200px;
 gap: 16x;
+
 }
 
 
@@ -438,7 +439,7 @@ padding: 8px 12px;
 border-radius: 20px;
 background-color: #f1f1f1;
 color: #333;
-font-size: 14px;
+font-size: 12px;
 font-weight: bold;
 align-items: center;
 justify-items: center;
@@ -466,7 +467,12 @@ align-items: center;
 align-self: stretch;
 margin: 16px;
 justify-content: center;
-border: 2px solid black;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+
+margin: 0px 100px;
+}
+h1.projectTitle {
+  font-size: 28px;
 }
 
 .works2 {
@@ -486,21 +492,20 @@ background: linear-gradient(
 .projectTitle,
 .projectInfo {
 display: flex;
-width: 554px;
 flex-direction: column;
 flex-shrink: 0;
 }
 
 .projectTitle {
 color: #000;
-font-size: 48px;
+font-size: 58px;
  font-family: Inter;
 margin-bottom: 16px;
 }
 
 .projectInfo {
 color: #000;
-font-size: 20px;
+font-size: 40px;
 font-family: 'Inter', sans-serif;
 line-height: 32px;
 }
@@ -524,7 +529,7 @@ object-fit: cover;
 .works2 {
   flex-direction: column;
   height: auto;
-  border: 5px solid black;
+
   border-radius: 5px;
 }
 
@@ -538,6 +543,7 @@ object-fit: cover;
 @media screen and (max-width: 2000px) {
   .featured-projects {
     margin: 0 auto;
+
   }
 
   .workText {
@@ -551,7 +557,7 @@ object-fit: cover;
     flex-direction: column;
     height: auto;
     padding: 20px;
-    border: 5px solid black;
+   
     border-radius: 5px;
   }
 
@@ -588,13 +594,13 @@ object-fit: cover;
   flex-direction: row;
   height: auto;
   padding: 30px;
-  border: 5px solid black;
+
   border-radius: 5px;
 }
 
 .works1:hover,
 .works2:hover {
-  border: 5px solid black;
+
   border-radius: 5px;
 }
 
@@ -610,8 +616,7 @@ object-fit: cover;
 
 .works2:hover,
 .works1:hover {
-border: 5px solid black;
-border-radius: 5px;
+
 background: linear-gradient(
   180deg,
   rgba(64, 0, 86, 0.42) 0%,
@@ -1249,7 +1254,7 @@ flex-shrink: 0;
   justify-content: center;
   align-items: center;
 }
-/*overview of case study */
+/*overview of case study 
 .frame-96, .frame-96 * {
   box-sizing: border-box;
   }
@@ -1412,7 +1417,7 @@ font: 400 18px 'Inter', sans-serif;
   position: relative;
   }
   .max-width-image {
-    min-width: 400px; /* Set the maximum width as desired */
+    min-width: 400px; /* Set the maximum width as desired 
   }
   .frame-866, .frame-866 * {
     box-sizing: border-box;
@@ -1438,7 +1443,7 @@ font: 400 18px 'Inter', sans-serif;
       align-items: center;
       justify-content: center;
     }
-    /*side bar*/
+    /*side bar
 
 /* Sidebar container 
 .sidebar {
@@ -1498,4 +1503,4 @@ font: 400 18px 'Inter', sans-serif;
     .content {
       margin-left: 200px;
       padding: 20px;
-    *//*}*/
+    *//*}*/}
