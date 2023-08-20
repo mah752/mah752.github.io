@@ -433,6 +433,8 @@ align-items: center;
 justify-items: center;
 }
 
+
+
 .pill {
 display: inline-block;
 padding: 8px 12px;
@@ -523,20 +525,27 @@ object-fit: cover;
   height: auto;
   padding: 0px 20px;
   text-align: center;
+
 }
 
 .works1,
 .works2 {
   flex-direction: column;
   height: auto;
+box-shadow: none;
+border: 1px solid black;
+min-width: 250px;
+margin-bottom: 20px;
 
-  border-radius: 5px;
 }
 
 
 .projectTitle,
 .projectInfo {
   width: 100%;
+}
+.pill, .pill-container{
+  display: none;
 }
 }
 

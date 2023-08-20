@@ -390,3 +390,18 @@ jQuery(document).ready(function($){
 		return window.getComputedStyle(document.querySelector('.cd-horizontal-timeline'), '::before').getPropertyValue('content').replace(/'/g, "").replace(/"/g, "");
 	}
 });
+function toggleSidebar() {
+	const sidebar = document.querySelector('.sidebar');
+	sidebar.classList.toggle('open');
+  }
+  window.addEventListener('load', () => {
+	const closePopupBtn = document.getElementById('closePopupBtn');
+	const popupContainer = document.getElementById('popupContainer');
+  
+	popupContainer.style.display = 'block';
+  
+	closePopupBtn.addEventListener('click', () => {
+	  popupContainer.style.display = 'none';
+	});
+  });
+  
