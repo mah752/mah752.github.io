@@ -935,12 +935,17 @@ color: #400056;
     height: auto;
     padding-left: 0;
   }
+  section{
+ padding: none;
+ margin: 0 auto;
+  }
 }
 @media only screen and (max-width: 516px) {
  .btn-box button{
 font-size: 12px !important;
 
   }
+
 }
 
 .popup-content {
