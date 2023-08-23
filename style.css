@@ -549,7 +549,7 @@ navbar-brand:hover
   animation-duration: 7s;
   text-align: center;
 }
-section{
+#training, #intro{
  padding-top: 150px;
 }
 @media (max-width: 1366px) {
