@@ -1016,3 +1016,6 @@ font-size: 12px !important;
     font-weight: bold;
     cursor: pointer;
 }
+.sending{
+  background-color: #8b3dca;
+}
