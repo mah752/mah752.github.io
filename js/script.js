@@ -43,3 +43,24 @@
       });
   });
 })(jQuery);
+// Get the modal and the button that opens it
+var modal = document.getElementById("contactModal");
+var btn = document.getElementById("contactBtn");
+var span = document.getElementsByClassName("close")[0];
+
+// Open the modal when the button is clicked
+btn.onclick = function() {
+    modal.style.display = "block";
+};
+
+// Close the modal when the close button is clicked
+span.onclick = function() {
+    modal.style.display = "none";
+};
+
+// Close the modal if the user clicks outside of it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+};
