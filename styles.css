@@ -1513,7 +1513,8 @@ font: 400 18px 'Inter', sans-serif;
       margin-left: 200px;
       padding: 20px;
     *//*}*/}}
-    .image-holder{
-      border-radius: 50%;
-    }
   
+  .contactbutton:hover{
+    background-color: #000 !important;
+  
+  }

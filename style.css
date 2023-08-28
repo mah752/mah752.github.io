@@ -834,6 +834,7 @@ footer{
   z-index: 999;
 }
 
+
 #cursor-border {
   --size: 50px;
   position: fixed;
@@ -848,6 +849,25 @@ footer{
     height 0.15s ease-out, background-color 0.15s ease-out;
   z-index: 999;
 }
+}
+/* This CSS rule hides the custom cursor for screens larger than 830px */
+@media only screen and (max-width: 831px) {
+  #cursor,
+  #cursor-border {
+    display: none;
+  }
+}
+
+/* This CSS rule sets the default cursor for screens up to 830px */
+@media only screen and (max-width: 830px) {
+  #cursor,
+  #cursor-border {
+    display: none;
+  }
+  /* Set the cursor property to 'auto' to show the default cursor */
+  body {
+    cursor: auto;
+  }
 }
 .sticky-sidebar {
   position: fixed;
@@ -961,7 +981,7 @@ font-size: 12px !important;
   background-color: white;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
   max-width: 80%;
   text-align: center;
 }
@@ -975,7 +995,7 @@ font-size: 12px !important;
 }
 
 .popup-content button {
-  background-color: #007bff;
+
   color: white;
   border: none;
   padding: 10px 20px;
