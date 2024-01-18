@@ -72,7 +72,7 @@ $(document).ready(function(){
  });
 });
 
-//cursor//
+//cursor
 const cursor = document.querySelector("#cursor");
 const cursorBorder = document.querySelector("#cursor-border");
 const cursorPos = { x: 0, y: 0 };
@@ -111,7 +111,7 @@ document.querySelectorAll("[data-cursor]").forEach((item) => {
     cursorBorder.style.mixBlendMode = "unset";
     cursorBorder.style.setProperty("--size", "50px");
   });
-});
+});//
 //timeline//
 jQuery(document).ready(function($){
 	var timelines = $('.cd-horizontal-timeline'),
